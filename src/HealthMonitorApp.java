@@ -82,8 +82,8 @@ public class HealthMonitorApp {
         while (loggedIn) {
             System.out.println("Logged in as: " + user.getUsername());
             System.out.println("1. Log food entry");
-            System.out.println("2. Log exercise entry");
-            System.out.println("3. Log sleep entry");
+            System.out.println("2. Log exercise");
+            System.out.println("3. Log sleep");
             System.out.println("4. View daily caloric balance");
             System.out.println("5. View sleep analysis");
             System.out.println("6. View exercise log");
@@ -235,7 +235,7 @@ public class HealthMonitorApp {
                 }
             }
         } else {
-            System.out.println("No sleep records found in the specified date range.");
+            System.out.println("No sleep records found in the date range.");
         }
     }
 
